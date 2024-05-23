@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech - Hindi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text to Speech Converter (Hindi)</h1>
+        <textarea id="text-input" placeholder="हिंदी में टेक्स्ट दर्ज करें..."></textarea>
+        <select id="voice-select">
+            <option value="">Select Voice</option>
+            <optgroup label="Male Voices" id="male-voices"></optgroup>
+            <optgroup label="Female Voices" id="female-voices"></optgroup>
+            <optgroup label="Other Voices" id="other-voices"></optgroup>
+        </select>
+        <div class="button-container">
+            <button id="speak-button">बोलें</button>
+            <button id="pause-button">रोकें</button>
+            <button id="resume-button">फिर से शुरू करें</button>
+            <button id="stop-button">बंद करें</button>
+            <button id="download-button">डाउनलोड</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
